@@ -1,0 +1,28 @@
+[2023-12-06T11:03:36.535+0700] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: my_dag.task1 scheduled__2023-06-06T17:00:00+00:00 [queued]>
+[2023-12-06T11:03:36.542+0700] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: my_dag.task1 scheduled__2023-06-06T17:00:00+00:00 [queued]>
+[2023-12-06T11:03:36.543+0700] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-06T11:03:36.543+0700] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-12-06T11:03:36.543+0700] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-06T11:03:36.558+0700] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): task1> on 2023-06-06 17:00:00+00:00
+[2023-12-06T11:03:36.561+0700] {standard_task_runner.py:55} INFO - Started process 19717 to run task
+[2023-12-06T11:03:36.573+0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'task1', 'scheduled__2023-06-06T17:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/var/folders/2v/9y0v__0x07v5_4l4r76qkvq80000gn/T/tmphh9ednw1']
+[2023-12-06T11:03:36.577+0700] {standard_task_runner.py:83} INFO - Job 44: Subtask task1
+[2023-12-06T11:03:36.669+0700] {task_command.py:389} INFO - Running <TaskInstance: my_dag.task1 scheduled__2023-06-06T17:00:00+00:00 [running]> on host jacky-tan-2.local
+[2023-12-06T11:03:36.741+0700] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=my_dag
+AIRFLOW_CTX_TASK_ID=task1
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-06T17:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-06T17:00:00+00:00
+[2023-12-06T11:03:36.744+0700] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/2v/9y0v__0x07v5_4l4r76qkvq80000gn/T
+[2023-12-06T11:03:36.745+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Task 1"']
+[2023-12-06T11:03:36.753+0700] {subprocess.py:86} INFO - Output:
+[2023-12-06T11:03:36.756+0700] {subprocess.py:93} INFO - Task 1
+[2023-12-06T11:03:36.757+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-06T11:03:36.787+0700] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=task1, execution_date=20230606T170000, start_date=20231206T040336, end_date=20231206T040336
+[2023-12-06T11:03:36.843+0700] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-12-06T11:03:36.899+0700] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

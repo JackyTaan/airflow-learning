@@ -1,0 +1,21 @@
+[2023-12-04T16:27:37.546+0700] {processor.py:153} INFO - Started process (PID=35063) to work on /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:27:37.548+0700] {processor.py:743} INFO - Processing file /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2023-12-04T16:27:37.549+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:27:37.548+0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:27:37.598+0700] {processor.py:753} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:27:39.211+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:27:39.211+0700] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-04T16:27:39.227+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:27:39.227+0700] {dag.py:3423} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2023-12-04T16:27:39.247+0700] {processor.py:175} INFO - Processing /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 1.701 seconds
+[2023-12-04T16:30:33.346+0700] {processor.py:153} INFO - Started process (PID=36890) to work on /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:30:33.348+0700] {processor.py:743} INFO - Processing file /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2023-12-04T16:30:33.349+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:30:33.349+0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:30:33.389+0700] {processor.py:753} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:30:34.915+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:30:34.914+0700] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-04T16:30:34.932+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:30:34.932+0700] {dag.py:3423} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2023-12-04T16:30:34.954+0700] {processor.py:175} INFO - Processing /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 1.609 seconds
+[2023-12-04T16:33:09.624+0700] {processor.py:153} INFO - Started process (PID=38630) to work on /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:33:09.626+0700] {processor.py:743} INFO - Processing file /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2023-12-04T16:33:09.626+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:33:09.626+0700] {dagbag.py:538} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:33:09.661+0700] {processor.py:753} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2023-12-04T16:33:11.804+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:33:11.803+0700] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-04T16:33:11.851+0700] {logging_mixin.py:137} INFO - [2023-12-04T16:33:11.851+0700] {dag.py:3423} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2023-12-04T16:33:11.882+0700] {processor.py:175} INFO - Processing /opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 2.258 seconds
